@@ -1,0 +1,25 @@
+.navbar{
+    border-radius: 15px;
+}
+
+.navfont .nav-link{
+    font-family: 'Raleway', sans-serif;
+    font-size: large;
+    color: white !important;
+    font-weight: 200;
+}
+
+.nav-link:after {
+    content: '';
+    display: block;
+    border-bottom: 1px solid white;
+    width: 0;
+    -webkit-transition: 0.2s ease;
+            transition: 0.2s ease;
+    }
+    
+.nav-link:hover:after { width: 100%; }
+
+.nav-container{
+    margin-left: 15px;
+}
